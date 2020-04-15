@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando link</title>
+</head>
+<body>
+    <h1>Colocando link</h1>
+    <h2> Através do JS </h2>
+<div id="app">
+
+</div>
+
+
+<script>
+var linkELement = document.createElement('a');
+linkELement.setAttribute('href', 'https://www.youtube.com/')
+var textElement = document.createTextNode('Acessar link you tube')
+linkELement.appendChild(textElement);
+
+var app8 = document.getElementById('app')
+app8.appendChild(linkELement)
+
+
+
+ </script>
+    
+</body>
+
+</html>
